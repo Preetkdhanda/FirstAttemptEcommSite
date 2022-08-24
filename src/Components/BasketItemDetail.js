@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 const BasketItemDetail = ({name, type, price,id ,index, onItemSelected})=>{
     
-
+   
 
 
     const ListItem = styled.li`
@@ -21,6 +21,7 @@ const BasketItemDetail = ({name, type, price,id ,index, onItemSelected})=>{
     return(
 <>
 <ListItem>{name} {type} £{price}</ListItem>
+<div> </div>
 
 </>
 
